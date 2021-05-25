@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MoTuThanhCong">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/nh" />
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textColor="#1B9AD3"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Mở tủ thành công Cảm ơn quý khách đã sử dụng dịch vụ!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <Button
+        android:id="@+id/dktrangchu"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Trang chủ"
+        android:textColor="#201919"
+        android:textColorHighlight="#954141"
+        android:textColorHint="#4C2D2D"
+        android:textScaleX="1"
+        android:textSize="10dp"
+        app:backgroundTint="#89D5DF"
+        app:cornerRadius="40sp" />
+    <Button
+        android:id="@+id/dkcoithongtin"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="coi thông tin "
+        android:textColor="#201919"
+        android:textColorHighlight="#954141"
+        android:textColorHint="#4C2D2D"
+        android:textScaleX="1"
+        android:textSize="10dp"
+        app:backgroundTint="#89D5DF"
+        app:cornerRadius="40sp" />
+</LinearLayout>

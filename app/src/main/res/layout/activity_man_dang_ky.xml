@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManDangKy">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#168BE8"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="THÔNG TIN ĐĂNG KÝ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:id="@+id/dkhovaten"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="left"
+        android:hint="Họ và Tên"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:id="@+id/dktendangnhap"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:hint="Tên đăng nhập"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:id="@+id/dkngaythangnamsinh"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:hint="Ngày/tháng/năm sinh"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:id="@+id/dksodienthoai"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:hint="Số điện thoại"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:id="@+id/dkmatkhau"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:hint="Mật Khẩu"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:hint="Nhập lại mật khẩu"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"></EditText>
+    <CheckBox
+        android:layout_gravity="center"
+        android:text="Tôi đồng ý với điều khoản và điều kiện"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></CheckBox>
+    <Button
+        android:id="@+id/dkxacnhandangky"
+        android:layout_gravity="center"
+        android:hint="Đăng Ký"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:id="@+id/dktrovedangnhap"
+        android:layout_gravity="center"
+        android:hint="Trở về đăng nhập"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".xacthucthanhcong">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="95dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/nh" />
+    <TextView
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center"
+        android:textColor="#1B9AD3"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="Đăng ký thành công! cảm ơn quý khách đã xử dụng dịch vụ."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <Button
+        android:id="@+id/dktrangchu1"
+        app:cornerRadius="40sp"
+        android:textScaleX="1"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:text=" trang chủ"
+        android:textSize="20dp"
+        android:layout_width="328dp"
+        android:layout_height="92dp"
+        app:backgroundTint="#89D5DF"
+        android:textColorHighlight="#954141"
+        android:textColor="#201919"
+        android:textColorHint="#4C2D2D"/>
+    <Button
+        android:id="@+id/dkdangkymoi1"
+        app:cornerRadius="40sp"
+        android:textScaleX="1"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text=" Đăng ký mới"
+        android:textSize="20dp"
+        android:layout_width="328dp"
+        android:layout_height="92dp"
+        app:backgroundTint="#89D5DF"
+        android:textColorHighlight="#954141"
+        android:textColor="#201919"
+        android:textColorHint="#4C2D2D"/>
+
+</LinearLayout>

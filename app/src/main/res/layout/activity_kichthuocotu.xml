@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kichthuocotu">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/nh" />
+
+    <EditText
+        android:id="@+id/dksodienthoai"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:hint="Số điện thoại..."
+        android:textColorHint="#0E0909"></EditText>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left"
+        android:textColor="#0E0909"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Kích thước ô tủ :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <CheckBox
+        android:layout_gravity="left"
+        android:text="20X20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></CheckBox>
+    <CheckBox
+        android:layout_gravity="left"
+        android:text="20X20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></CheckBox>
+    <CheckBox
+        android:layout_gravity="left"
+        android:text="30X30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></CheckBox>
+    <CheckBox
+        android:layout_gravity="left"
+        android:text="40X40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></CheckBox>
+    <CheckBox
+        android:layout_gravity="left"
+        android:text="50X50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></CheckBox>
+
+    <Button
+        android:id="@+id/dkxacnhan"
+        android:layout_width="178dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="xác nhận"
+        android:textColor="#201919"
+        android:textColorHighlight="#954141"
+        android:textColorHint="#4C2D2D"
+        android:textScaleX="1"
+        android:textSize="10dp"
+        app:backgroundTint="#89D5DF"
+        app:cornerRadius="40sp" />
+    <Button
+        android:id="@+id/dkquaylai"
+        android:layout_width="178dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="quay lại"
+        android:textColor="#201919"
+        android:textColorHighlight="#954141"
+        android:textColorHint="#4C2D2D"
+        android:textScaleX="1"
+        android:textSize="10dp"
+        app:backgroundTint="#89D5DF"
+        app:cornerRadius="40sp" />
+
+
+
+</LinearLayout>
